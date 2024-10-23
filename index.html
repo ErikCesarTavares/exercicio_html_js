@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Campos Numéricos</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Validação de Campos</h1>
+        <form id="form-campos">
+            <input type="number" id="campo-a" required placeholder="Campo A (Número)" />
+            <input type="number" id="campo-b" required placeholder="Campo B (Número)" />
+            <button type="submit">Validar</button>
+        </form>
+        <p class="success-message"></p>
+        <p class="error-message">O número B deve ser maior que o número A.</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
